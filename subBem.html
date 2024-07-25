@@ -7,6 +7,219 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <h1>СДЕЛАЙТЕ ЗАКАЗ НАПРЯМУЮ ИЗ РЕСТОРАНА</h1>
+    </header>
+    <main>
+        <div class="menu-cart-container">
+            <section class="menu">
+                <h2 class="visually-hidden">Разделы меню</h2>
+                <ul class="menu__items">
+                    <li class="menu__item">Блины</li>
+                    <li class="menu__item">Шаурма</li>
+                    <li class="menu__item">Сендвичи</li>
+                    <li class="menu__item">Бургеры</li>
+                    <li class="menu__item">Курица&Картофель</li>
+                    <li class="menu__item">Тартилья&Салаты</li>
+                    <li class="menu__item">Напитки&Десерты</li>
+                </ul>
+
+            </section>
+            <section class="cart">
+                <header class="cart-header">
+                    <img class="cart__image" src="image/cart-img" alt="logo-cart">
+                    <h2 class="cart__text cart__text--font-color--white" style="font-size:2em; margin-top: .5em;">Корзина</h2>
+
+                </header>
+                <div class="cart__text-cont">
+                    <b class="cart__text">Название</b>
+                    <b class="cart__text">Количество</b>
+                </div>
+
+                <hr class="cart__hr" style="color: rgb(255, 0, 0);">
+                <div class="checkout">
+                    <b class="cart__text">Итого: 0 руб</b>
+                    <button class="checkout__btn">
+                        <a href="#" class="cart__btn-text">Оформить заказ</a>
+                    </button>
+
+                </div>
+            </section>
+        </div>
+
+        <section class="menu__products">
+            <h2 class="visually-hidden">Позиции меню</h2>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img " src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Овощной</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+
+
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img" src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Сабвэй Клаб</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Индейка, ветчина, ростбиф, соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img" src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Альпийский</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Альпийские колбаски на выбор 2 шт. Соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img" src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Овощной</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Индейка, ветчина, ростбиф, соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img" src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Сабвэй Клаб</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Индейка, ветчина, ростбиф, соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+            <article class="menu__product">
+                <div class="menu__product-info">
+                    <img class="menu__product-logo" src="https://subway.ru/local/templates/artw_new/images/logo.png"
+                        alt="subway-logo">
+                    <img class="menu__product-img" src="image/img-burger" alt="menu-product">
+                    <h3 class="menu__name-product">Альпийский</h3>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__product-ingredients">
+                    <a href="#" class="menu__change-ingredients">Индейка, ветчина, ростбиф, соус и овощи на выбор</a>
+                    <hr class="menu__hr"> 
+                </div>
+                <div class="menu__add-to-cart-and-price">
+                    <div class="menu__price-and-quantity">
+                        <span class="menu__price">Цена: 100 руб</span>
+                        <span class="menu__quantity-text">количество</span>
+                    </div>
+                    <div class="menu__counter">
+                        <button class="menu__btn-conter-minus">-</button>
+                        <output class="quantity-product">2</output>
+                        <button class="menu__btn-counter-plus">+</button>
+                    </div>
+
+
+                    <button class="cart-button cart__text--font-color--white">В КОРЗИНУ</button>
+
+                </div>
+
+            </article>
+        </section>
+    </main>
 </body>
 </html>
