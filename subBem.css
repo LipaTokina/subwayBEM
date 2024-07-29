@@ -47,6 +47,11 @@
   .menu__item{
     padding: 1em;
   }
+  .menu__item:hover{
+    background-color: rgb(243, 204, 76);
+    color: rgb(255, 255, 255);
+  }
+
   .cart{
    background-color:rgb(243, 204, 76);
    width: inherit;
@@ -89,6 +94,9 @@
     width: 125px;
     height: 25px;
     box-shadow: 2px 2px 2px rgb(28, 13, 2);
+  }
+  .cart-button:hover{
+    cursor: pointer;
   }
   .cart__text{
       font-family: "Roboto Slab", serif;
