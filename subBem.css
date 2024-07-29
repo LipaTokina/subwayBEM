@@ -40,6 +40,7 @@
     flex-direction: column;
     width: 300px;
     margin-top: 1em;
+    padding: 1em;
   }
 
   .menu__items{
@@ -69,6 +70,7 @@
    height: 250px;
    margin-top: 3em;
    border-radius: 5px;
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.171);
   }
   .cart-header{
     display: flex;
