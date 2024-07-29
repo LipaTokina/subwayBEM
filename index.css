@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота экрана */
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Распределяет блоки равномерно */
+    width: 80%; /* Ширина контейнера */
+  }
+  
+  .block {
+    background-color: lightblue; /* Цвет фона блоков */
+    padding: 20px; /* Внутренний отступ */
+    flex: 1; /* Блоки занимают равное пространство */
+    margin: 10px; /* Отступ между блоками */
+    min-height: 100px; /* Минимальная высота блоков */
+    display: flex; /* Используем flex для центрирования текста */
+    align-items: center; /* Вертикальное центрирование текста */
+    justify-content: center; /* Горизонтальное центрирование текста */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для блоков */
+  }
