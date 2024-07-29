@@ -46,6 +46,7 @@
   }
   .menu__item{
     padding: 1em;
+    cursor: pointer;
   }
   .menu__item:hover{
     background-color: rgb(243, 204, 76);
@@ -147,14 +148,18 @@
   .product__price{
     color: rgb(230, 11, 11);
     font-weight: 100;
+    font-size: 1em;
   }
   .product__quantity-text{
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: .5em;
   }
   .product__btn-conter-minus, .product__btn-counter-plus{
     border-radius: 50px;
     height: 20px;
     width: 20px;
     border: 1px solid rgb(170, 170, 170) ;
+    cursor: pointer;
   }
