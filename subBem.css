@@ -1,0 +1,152 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    box-sizing: border-box;
+  }  
+  main{
+    display: flex;
+    max-width: 1280px;
+  }
+
+  body{
+    background-image: url(image/img);
+    background-attachment: fixed;
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+  }
+  .menu-cart-container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex: 1;
+  }
+  .products{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product{
+    width: 300px;
+    margin-top: 1em;
+  }
+
+  .menu__items{
+    width: inherit;
+    
+  }
+  .menu__item{
+    padding: 1em;
+  }
+  .cart{
+   background-color:rgb(243, 204, 76);
+   width: inherit;
+   height: 250px;
+   margin-top: 3em;
+   border-radius: 5px;
+  }
+  .cart-header{
+    display: flex;
+    background-image: url(image/cart-background);
+    background-size: cover;
+    height: 80px;
+  }
+  .visually-hidden{
+    display: none;
+  }
+  .menu{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: inherit;
+    border-radius: 5px;
+  }
+  .product__logo{
+    width: 200px;
+  }
+  .product__img{
+    width: 200px;
+  }
+  a{
+    color:rgb(21, 110, 174);
+  }
+  .cart__text--font-color--white{
+    color: rgb(255, 255, 255);
+  
+  }
+  .cart-button{
+    background: rgb(241, 186, 7);
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 25px;
+    box-shadow: 2px 2px 2px rgb(28, 13, 2);
+  }
+  .cart__text{
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+  }
+  .cart__text-cont{
+    display: flex;
+  }
+  .checkout{
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout__btn{
+    background-color: rgb(110, 110, 110);
+    width: 150px;
+    height: 30px;
+    margin-top: 2em;
+    font-size: 1em;
+    border: none;
+    box-shadow: 1px 1px black;
+  }
+  .cart__btn-text{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  b.cart__text{
+    margin-top: 1em;
+  }
+  .cart__image{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .product__name-product, .product__change-ingredients, .product__add-to-cart-and-price{
+    padding: .5em 0;
+  }
+  
+  hr{
+    margin-top: 1em;
+    
+  }
+  .product__price-and-quantity{
+    display: flex;
+    flex-direction: column;
+  }
+  .product__price{
+    color: rgb(230, 11, 11);
+    font-weight: 100;
+  }
+  .product__quantity-text{
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  .product__btn-conter-minus, .product__btn-counter-plus{
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(170, 170, 170) ;
+  }
